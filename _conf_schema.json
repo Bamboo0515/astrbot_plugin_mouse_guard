@@ -1,0 +1,23 @@
+{
+    "admin_only": {
+        "description": "只允许管理员使用",
+        "hint": "鼠标控制影响整机，建议保持开启",
+        "type": "bool",
+        "default": true
+    },
+    "python_path": {
+        "description": "跑脚本的解释器",
+        "type": "string",
+        "default": "D:\\\\FurinaSinger\\\\.venv\\\\Scripts\\\\python.exe"
+    },
+    "script_path": {
+        "description": "mouse_guard.py 路径",
+        "type": "string",
+        "default": "D:\\\\Furina\\\\projects\\\\mouse_guard.py"
+    },
+    "default_interval": {
+        "description": "默认间隔秒数",
+        "type": "int",
+        "default": 30
+    }
+}

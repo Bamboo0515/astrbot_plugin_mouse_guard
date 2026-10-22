@@ -1,0 +1,9 @@
+name: astrbot_plugin_mouse_guard
+display_name: 鼠标守卫
+desc: "本机鼠标模拟：微动防闲置、定时点击、移动与滚轮；带 PID 精确急停，只杀自己"
+help: "/鼠标 微动 30｜/鼠标 停｜/鼠标 状态；也可由 AI 调用 mouse_guard 工具"
+version: v1.0.0
+author: 芙宁娜
+repo: local
+support_platforms:
+  - aiocqhttp
